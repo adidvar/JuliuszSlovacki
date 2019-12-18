@@ -1,0 +1,54 @@
+
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+
+			.hd {
+        height: 120px;
+				background: #e8dfd6;
+			  border-bottom: 1px solid #c4c2bc;
+			}
+    /*font-family: 'Lobster', cursive;
+     font-family: 'Comfortaa', cursive;*/
+			.avatar
+			{
+				height:100px;
+			 float:left;
+			 margin: 10px;
+			 margin-left: 25%;
+
+
+			}
+			.pagetext
+			{
+				margin-top: 25px;
+				font-size: 30px;
+				float: right;
+				padding: 10px;
+				font-family: 'Lobster', cursive;
+				margin-right: 25%;
+			}
+				.image
+				{
+					 width:100%;
+				}
+				.text
+				{
+					 width: 100%;
+           padding: 40px;
+           background: #e8dfd6;
+           border-top: 1px solid #c4c2bc;
+				}
+        .text h3
+        {
+            font-family: 'Comfortaa', cursive;
+            margin-left: 25%;
+            width: 100%;
+        }
+
+        .text h4
+        {
+            font-family: 'Comfortaa', cursive;
+            margin: 40px;
+        }
