@@ -6,6 +6,12 @@
 
 			@media screen and (orientation: landscape)
 			{
+
+			#empty
+			{
+					height: 120px;
+			}
+
 			.hd {
 				width: 100%;
         height: 120px;
@@ -45,13 +51,14 @@
 				.text
 				{
            padding: 40px;
-           background: #e8dfd6;
+           background: #f2ece6;
            border-top: 1px solid #c4c2bc;
 				}
         .text h3
         {
           font-family: 'Open Sans', sans-serif;
-            margin-left: 25%;
+            margin-left: 40px;
+						border-bottom: 2px solid #f75c19;
         }
 
         .text h4
@@ -67,6 +74,12 @@
 						height: 120px;
 						background: #e8dfd6;
 						border-bottom: 1px solid #c4c2bc;
+						height: 200px
+					}
+
+					#empty
+					{
+							height: 0px;
 					}
 				/*font-family: 'Lobster', cursive;
 				 font-family: 'Comfortaa', cursive;*/
@@ -97,17 +110,19 @@
 							 padding: 10px;
 							 background: #e8dfd6;
 							 border-top: 1px solid #c4c2bc;
+							 border-bottom: 1px solid #c4c2bc;
 						}
 						.text h3
 						{
-								font-family: 'Comfortaa', cursive;
+							  font-family: 'Open Sans', sans-serif;
 								margin:20px;
-								margin-left: 15%;
+								margin-left: 20px;
+								border-bottom: 2px solid black;
 						}
 
 						.text h4
 						{
-								font-family: 'Comfortaa', cursive;
+								  font-family: 'Open Sans', sans-serif;
 								font-size: 15px;
 								margin: 10px;
 						}
