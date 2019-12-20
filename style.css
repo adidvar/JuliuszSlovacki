@@ -51,8 +51,9 @@
 				.text
 				{
            padding: 40px;
-           background: #f2ece6;
            border-top: 1px solid #c4c2bc;
+					 border-bottom: 1px solid #c4c2bc;
+					 background: #e8dfd6;
 				}
         .text h3
         {
@@ -74,7 +75,7 @@
 						height: 120px;
 						background: #e8dfd6;
 						border-bottom: 1px solid #c4c2bc;
-						height: 200px
+						height: 120px
 					}
 
 					#empty
@@ -117,7 +118,7 @@
 							  font-family: 'Open Sans', sans-serif;
 								margin:20px;
 								margin-left: 20px;
-								border-bottom: 2px solid black;
+								border-bottom: 2px solid #f75c19;
 						}
 
 						.text h4
