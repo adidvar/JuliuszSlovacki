@@ -135,3 +135,7 @@
 	padding: 0 0 0 20;
 	font-size: 20px;
 }
+td{
+	padding: 0 100;
+	vertical-align: top;
+}
