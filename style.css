@@ -4,12 +4,9 @@
 				padding: 0px;
 			}
 
-			@media screen and (orientation: landscape)
-			{
-
 			#empty
 			{
-					height: 120px;
+					height: 0px;
 			}
 
 			.hd {
@@ -17,7 +14,7 @@
         height: 120px;
 				background: #e8dfd6;
 			  border-bottom: 1px solid #c4c2bc;
-				position: fixed;
+			    /*	position: fixed; */
 			}
     /*
 
@@ -50,84 +47,29 @@
 				}
 				.text
 				{
-           padding: 40px;
+           padding: 30px;
            border-top: 1px solid #c4c2bc;
-					 border-bottom: 1px solid #c4c2bc;
-					 background: #e8dfd6;
-				}
+	   border-bottom: 1px solid #c4c2bc;
+	   background: #e8dfd6;
+	}
+
         .text h3
         {
-          font-family: 'Open Sans', sans-serif;
-            margin-left: 40px;
-						border-bottom: 2px solid #f75c19;
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom : 10px;
+            margin-top: 15px;
+	    border-bottom: 2px solid #f75c19;
+
+
         }
 
         .text h4
         {
           font-family: 'Open Sans', sans-serif;
-            margin: 40px;
-        }
-			}
-
-				@media screen and (orientation: portrait)
-				{
-					.hd {
-						height: 120px;
-						background: #e8dfd6;
-						border-bottom: 1px solid #c4c2bc;
-						height: 120px
-					}
-
-					#empty
-					{
-							height: 0px;
-					}
-				/*font-family: 'Lobster', cursive;
-				 font-family: 'Comfortaa', cursive;*/
-					.avatar
-					{
-					 height:100px;
-					 float:left;
-					 margin: 10px;
-					 margin-left: 5%;
+     
+	}
 
 
-					}
-					.pagetext
-					{
-						margin-top: 25px;
-						font-size: 30px;
-						float: left;
-						padding: 10px;
-						font-family: 'Lobster', cursive;
-						margin-left: 20px;
-					}
-						.image
-						{
-							width: 100%;min-width: 100%;
-						}
-						.text
-						{
-							 padding: 10px;
-							 background: #e8dfd6;
-							 border-top: 1px solid #c4c2bc;
-							 border-bottom: 1px solid #c4c2bc;
-						}
-						.text h3
-						{
-							  font-family: 'Open Sans', sans-serif;
-								margin:20px;
-								margin-left: 20px;
-								border-bottom: 2px solid #f75c19;
-						}
-
-						.text h4
-						{
-								  font-family: 'Open Sans', sans-serif;
-								font-size: 15px;
-								margin: 10px;
-						}
-				}
 .img2{
 	padding: 0 15 0 0;
 }
