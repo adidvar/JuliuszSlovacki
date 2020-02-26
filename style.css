@@ -40,6 +40,7 @@
 				padding: 10px;
 				font-family: 'Lobster', cursive;
 				margin-left: 40px;
+
 			}
 				.image
 				{
@@ -51,6 +52,7 @@
            border-top: 1px solid #c4c2bc;
 	   border-bottom: 1px solid #c4c2bc;
 	   background: #e8dfd6;
+
 	}
 
         .text h3
@@ -72,6 +74,13 @@
 
 .img2{
 	padding: 0 15 0 0;
+}
+
+.wblock
+{
+display: inline-table;
+    width:27%;
+margin:30px;
 }
 .point{
 	padding: 0 0 0 20;
